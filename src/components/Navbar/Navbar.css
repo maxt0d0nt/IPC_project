@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 90;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    opacity: 0.7;
+    border-bottom: #fff 1px solid;
+    transition: 0.7s;
+    
+  
+}
+
+
+.header.active {
+    background-color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    border-bottom: #fff 1px solid;
+    transition: 0.7s;
+    z-index: 90;
+   }
+
+.logo {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    
+}
+
+.link {
+  
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.header.active a {
+    text-decoration: none;
+    color: #000
+}
+
+.mobile-menu-icon {
+    display: none;
+    padding-top: 10px;
+}
+
+.link:hover {
+    background-color: gray;
+ }
+
+@media screen and (max-width: 780px) {
+    .navMenu {
+        display: none;
+        
+    }
+
+    .nav-link-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #fff;
+        left: 0;
+        top: 75px;
+        transition: all 1s ease-in-out;
+        width: 100%;
+                
+    }
+
+    a {
+        text-decoration: none;
+        color: #000
+    }
+
+    .link {
+        color: #000;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+        transition: all 1s ease-in-out;
+        border-bottom: #000 1px solid;
+    
+}
+
+
+    .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: #000;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    top: 15px;
+    right: 25px;
+    }
+
+    .Nav {
+        opacity: 0.9;     
+      
+    }
+    
+}
+
+
+

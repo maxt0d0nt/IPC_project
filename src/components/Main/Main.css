@@ -1,0 +1,166 @@
+.fondo {
+    background-image: url('../../img/Main 1.png');
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: linear-gradient(90deg, #161deb, #d31c1c);  
+   z-index: 1;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    
+}
+
+.imgRectangle {
+    position: relative;
+
+}
+
+.img1 {
+    position: absolute;
+    width: 420px;
+    top: -150px;
+    left: 200px;
+    transform: rotate(270deg);
+    z-index: -1;
+}
+
+.img2 {
+    position: absolute;
+    width: 420px;
+    top: -150px;
+    left: 100px;
+    transform: rotate(270deg);
+    z-index: -1;
+}
+
+.img3 {
+    position: absolute;
+    width: 420px;
+    top: -70px;
+    left: 150px;
+   
+}
+
+  .title{
+    height: 280px;
+    width: 70%;
+    display: flex;
+    font-family:Roboto;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: white;
+    
+  }
+
+ 
+  .subtitle{
+    height: 100px;
+    display:flex;
+    font-size: 15px;
+    font-family:Roboto;
+    position: absolute;
+    top: 600px;
+    right: 100px;
+    padding: 30px;
+    color: white;
+     
+  }
+
+  
+  .btn-main {
+
+    padding: 0px 40px;
+    position: absolute;
+    width: 165px;
+    height: 48px;
+    background: linear-gradient(180deg, #051178 0%, rgba(222, 208, 250, 0.99) 100%);
+    border-radius: 24px;
+    top: -130px;
+    left: -100px;
+    border: none;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+  @media screen and (min-width: 780px) {
+    .title{
+        height: 280px;
+        width: 70%;
+        display: flex;
+        font-size: 20px;
+        font-family:Roboto;
+        position: relative;
+        top: 200px;
+        padding: 25px;
+     
+      }
+
+      
+    
+  }
+
+  @media screen and (max-width: 780px) {
+
+
+   
+    .img1 {
+      
+        width: 280px;
+        top: 100px;
+        
+    }
+    
+    .img2 {
+        width: 280px;
+        top: 100px;
+        left: 150px;
+    }
+
+    .img3 {
+       
+        width: 320px;
+        top: -40px;
+        left: 150px;
+       
+    }
+    .title{
+        top: 140px;
+        left: 100px;
+        
+      }
+}
+
+@media screen and (max-width: 490px) {
+    .img1 {
+      
+        width: 240px;
+        left: 30px;
+        top: 200px;
+    }
+    
+    .img2 {
+        width: 240px;
+       left: 15px;
+        top: 250px;
+    }
+
+    .img3 {
+       
+        width: 250px;
+        left: 15px;
+       
+       
+    }
+    .title{
+     
+      top: 150px;
+      left: 50px;
+    }
+}
