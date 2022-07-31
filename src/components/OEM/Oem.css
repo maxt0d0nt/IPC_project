@@ -1,0 +1,10 @@
+.oem-container {
+    background-image: url('../../img/Rectangle 26.svg');
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   z-index: 2000;
+}
