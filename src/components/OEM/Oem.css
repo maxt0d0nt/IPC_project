@@ -1,10 +1,66 @@
 .oem-container {
     background-image: url('../../img/Rectangle 26.svg');
-    height: 800px;
+
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-   z-index: 2000;
+    z-index: 2000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oem-title {
+    color: #fff;
+    padding: 40px;
+    width: 60%;
+    line-height: 50px;
+    height: auto;
+}
+
+.imgUsa {
+
+    width: 35%;
+    display: flex;
+    align-items: center;
+    height: auto;
+
+}
+
+.imgOEM {
+
+    width: 100%;
+}
+
+.patco {
+
+    width: 25%;
+}
+
+.imgTelco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------------------------- MObile -----------------------*/
+@media screen and (max-width: 1000px) {
+    .oem-title {
+
+
+        width: 100%;
+    }
+
+    .imgUsa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imgOEM {
+        padding-bottom: 20px;
+        width: 80%;
+    }
 }

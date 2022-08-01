@@ -3,6 +3,7 @@ import { Navbar } from '../components/Navbar/Navbar';
 import { Main } from '../components/Main/Main';
 import { About } from '../components/About/About'
 import { Oem } from '../components/OEM/Oem';
+import { Iso } from "../components//ISO/Iso.js"
 
 
 export const Home = () => {
@@ -13,7 +14,7 @@ export const Home = () => {
       < Main />
       < About />
       < Oem />
-      
+      < Iso />
     </>
   )
 }
