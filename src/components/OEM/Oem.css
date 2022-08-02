@@ -1,12 +1,10 @@
 .oem-container {
     background-image: url('../../img/Rectangle 26.svg');
-
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 2000;
     display: flex;
     flex-wrap: wrap;
 }
@@ -41,7 +39,7 @@
 .imgTelco {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around
 }
 
 /*------------------------- MObile -----------------------*/

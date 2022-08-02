@@ -1,27 +1,28 @@
 import React from 'react'
 import "./Iso.css"
-import img2 from '../../img/oem.png';
-import patco from '../../img/patco.png';
-import usa from '../../img/madein.png';
+import img from '../../img/iso.png';
+import isofuel from '../../img/isofuel-removebg-preview.png';
+import phoenix from '../../img/phoenix.png';
 
 export const Iso = () => {
-  return (
-    <>
-    <div className='iso-container'>
-      <div className='oem-title'>
-        <h1>OEM control panels are designed to give you the flexibility you need,
-        while staying within your original parameters.</h1>
-        <div className='imgTelco'>
-      <img src={patco} alt='img' className='patco' />
-      <img src={usa} alt='img' className='patco' />
-      </div>
-      </div>
-      <div className='imgUsa'>
-      <img src={img2} alt='img' className='imgOEM' />
-      </div>
-      
-    </div>
-    
-    </>
-  )
+    return (
+        <>
+            <div className='iso-container'>
+                
+                <div className='imgIso'>
+                    <img src={img} alt='img' className='Iso' />
+                </div>
+
+                <div className='iso-title'>
+                    <h1>ISOFuel panels are designed to give you the control, data, and flexibility you need.</h1>
+                    <div className='imgtrade'>
+                        <img src={isofuel} alt='img' className='isofuel' />
+                        <img src={phoenix} alt='img' className='phoenix' />
+                    </div>
+                </div>
+
+            </div>
+
+        </>
+    )
 }

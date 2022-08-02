@@ -1,0 +1,48 @@
+.imgIso {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Iso {
+    width: 65%;
+    padding-top: 40px;
+}
+
+.iso-title {
+    color: black;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.phoenix {
+    width: 40%;
+}
+
+.isofuel {
+    width: 40%;
+}
+
+.imgtrade {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/*------------------------- Xtra wide -----------------------*/
+@media screen and (min-width: 1100px) {
+    .Iso {
+        width: 38%;
+        padding-top: 40px;
+    }
+}

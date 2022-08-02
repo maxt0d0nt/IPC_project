@@ -104,6 +104,16 @@
 
 /*-------------------------- MOBILE -------------------------*/
 
+@media screen and (max-width: 360px) {
+  .imgRectangle {
+    height: 230px;
+  }
+
+  .imgRectangle2 {
+    height: 230px;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .mainTitle {
     line-height: 35px;
