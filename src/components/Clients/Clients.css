@@ -1,0 +1,48 @@
+.client-container {
+    background-color: beige;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.our {
+    width: 90%;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-bottom: 1px solid #000;
+}
+
+.client {
+    
+    width: 180px;
+    height: auto;
+    margin: 20px;
+    padding: 15px;
+    transition: transform .2s; /* Animation */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client:hover {
+    transform: scale(1.5);
+}
+
+.devon,
+.love,
+.ezgo,
+.wilco,
+.devon,
+.stripes,
+.plains
+
+ {
+    width: 100%;
+}
+

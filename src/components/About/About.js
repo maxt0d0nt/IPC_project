@@ -1,17 +1,25 @@
 import React from 'react';
 import bigImg from '../../img/undraw1.svg';
 import smallImg from '../../img/worker.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './About.css';
 
 export const About = () => {
+    
+  AOS.init({
+    delay: 500, 
+  duration: 1000
+  });
+
   return (
     <>
       <div className='container-about'>
-        <div className='draw'>
+        <div className='draw' data-aos="fade-left">
           <img src={bigImg} className='bigImg' alt='logo' />
           <img src={smallImg} className='smallImg' alt='logo' />
         </div>
-        <div className='about'>
+        <div className='about' data-aos="fade-down">
           <div className='about-description'>
             <h1>What we do?</h1>
             <br></br>

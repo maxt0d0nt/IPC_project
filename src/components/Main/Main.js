@@ -1,25 +1,33 @@
 import React from 'react';
 import './Main.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import img from '../../img/isofuel-removebg-preview.png';
 
 export const Main = () => {
+  
+  AOS.init({
+    delay: 0, 
+  duration: 500
+  });
+
   return (
 
     <div class="container">
       <div className='title'>
-        <div className='mainTitle'>
+        <div className='mainTitle' data-aos="zoom-in-up">
           <h1>Design, Fabrication, Installation, Maintenance of Distribution Control Panels
             Industrial and Commercial Electrical Control Panels
           </h1>
         </div>
-        <div className='btn'>
+        <div className='btn' data-aos="zoom-in-up">
           <button type='buttom' className='btn-main'>MORE</button>
         </div>
-        <div className='imgRectangle'></div>
+        <div className='imgRectangle' ></div>
         <div className='imgRectangle2'></div>
       </div>
 
-      <div className='subtitle'>
+      <div className='subtitle'data-aos="fade-left">
         <div className='imgLogoIso'>
           <img src={img} alt='img' className='img3' />
         </div>

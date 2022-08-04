@@ -1,0 +1,9 @@
+.footer-container {
+    background-color: rgb(32, 10, 199);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
