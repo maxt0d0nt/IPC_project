@@ -1,9 +1,126 @@
 .footer-container {
-    background-color: rgb(32, 10, 199);
+    background-image: url(../../img/main.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    color: #fff;
+    font-size: 14PX;
+
+
+}
+
+.foote-main {
+    border: #fff solid 2px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+
+}
+
+.page-footer {
+    border-left: #fff solid 1px;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.page {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page:hover {
+    color: #050228;
+    border-radius: 55px;
+    background: rgba(255, 255, 255, 0.363);
+}
+
+
+
+.products-footer {
+    border-left: #fff solid 1px;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products:hover {
+    color: #050228;
+    border-radius: 55px;
+    background: rgba(255, 255, 255, 0.363);
+}
+
+
+.address-footer {
+
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.address {
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 740px) {
+
+    .page-footer {
+        border-top: #fff solid 1px;
+        border-left: none;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .products-footer {
+        border-top: #fff solid 1px;
+        border-left: none;
+        width: 100%;
+        align-items: center;
+    }
+
+    .address-footer {
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .address {
+        padding: 20px;
+    }
+
+    .page {
+        padding: 20px;
+    }
+
+    .products {
+        padding: 20px;
+    }
 
 }

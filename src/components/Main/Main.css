@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  background-image: url('../../img/Main 1.png');
+  background-image: url('../../../public/Main1.png');
   width: 100%;
   padding: 50px;
   background-position: center;
@@ -100,6 +100,11 @@
   font-family: roboto;
   font-weight: 700;
   font-size: 16px;
+}
+
+.btn-main:hover {
+  background: #051178;
+  color: #fff;
 }
 
 /*-------------------------- MOBILE -------------------------*/

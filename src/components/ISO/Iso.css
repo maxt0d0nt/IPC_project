@@ -39,6 +39,34 @@
     
 }
 
+.btn-iso {
+  
+    align-items: flex-end;
+    padding: 0px 40px;
+    position: relative;
+    width: 165px;
+    height: 48px;
+    background: linear-gradient(180deg, #051178 0%, rgba(222, 208, 250, 0.99) 100%);
+    border-radius: 24px;
+    border: none;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .btn-iso:hover {
+    background: #051178;
+    color: #fff;
+}
+
 /*------------------------- Xtra wide -----------------------*/
 @media screen and (min-width: 1100px) {
     .Iso {

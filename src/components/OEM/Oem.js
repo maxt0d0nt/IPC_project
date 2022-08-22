@@ -18,6 +18,9 @@ export const Oem = () => {
         <div className='oem-title' data-aos="fade-right">
           <h1>OEM control panels are designed to give you the flexibility you need,
             while staying within your original parameters.</h1>
+            <div className='btn-oem-div'>
+              <button type='buttom' className='btn-oem'>MORE</button>
+            </div>
           <div className='imgTelco' >
             <img src={patco} alt='img' className='patco' data-aos="flip-left" />
             <img src={usa} alt='img' className='patco' data-aos="flip-left"/>

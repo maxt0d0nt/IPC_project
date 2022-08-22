@@ -21,6 +21,9 @@ export const Iso = () => {
 
                 <div className='iso-title' data-aos="fade-up">
                     <h1>ISOFuel panels are designed to give you the control, data, and flexibility you need.</h1>
+                    <div className='btn'>
+                    <button type='buttom' className='btn-iso'>MORE</button>
+                    </div>
                     <div className='imgtrade' >
                         <img src={isofuel} alt='img' className='isofuel' />
                         <img src={phoenix} alt='img' className='phoenix' />

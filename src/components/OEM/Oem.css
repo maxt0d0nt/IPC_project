@@ -1,5 +1,5 @@
 .oem-container {
-    background-image: url('../../img/Rectangle 26.svg');
+    background:#010630;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -40,6 +40,34 @@
     display: flex;
     align-items: center;
     justify-content:space-around
+}
+
+.btn-oem {
+  
+    align-items: flex-end;
+    padding: 0px 40px;
+    position: relative;
+    width: 165px;
+    height: 48px;
+    background: linear-gradient(180deg, #051178 0%, rgba(222, 208, 250, 0.99) 100%);
+    border-radius: 24px;
+    border: none;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .btn-oem-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .btn-oem:hover {
+    background: #051178;
+    color: #fff;
 }
 
 /*------------------------- MObile -----------------------*/
