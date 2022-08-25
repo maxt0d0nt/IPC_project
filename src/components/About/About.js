@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bigImg from '../../img/undraw1.svg';
 import smallImg from '../../img/worker.svg';
 import AOS from 'aos';
@@ -14,7 +15,7 @@ export const About = () => {
 
   return (
     <>
-      <div className='container-about'>
+      <div className='container-about' id='section-about'>
         <div className='draw' data-aos="fade-left">
           <img src={bigImg} className='bigImg' alt='logo' />
           <img src={smallImg} className='smallImg' alt='logo' />
@@ -27,7 +28,9 @@ export const About = () => {
             <br></br>
             <h2>We fabricate panels of all sizes and complexities, from isolation panels for fuel or other applications, to whole plant system controllers. IPC’s consistently high standards of quality are applied in everything we do, from the careful routing and labelling of wires to the precision laser-cut doors.</h2>
             <div className='btn-class'>
+            <Link to='/about'>
               <button type='buttom' className='btn-about'>MORE</button>
+            </Link>
             </div>
           </div>
 

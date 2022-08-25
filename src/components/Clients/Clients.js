@@ -25,22 +25,34 @@ export const Clients = () => {
         </div>
 
         <div className=' client'>
+        <a href='https://www.devonenergy.com/'target="_blank" rel='noreferrer'>
           <img src={devon} alt='img' className='devon' />
+        </a>
         </div>
         <div className=' client'>
+        <a href='https://www.ezgostores.com/' target="_blank" rel='noreferrer'>
           <img src={ezgo} alt='img' className='ezgo' />
+          </a>
         </div>
         <div className=' client'>
+        <a href='https://www.loves.com/' target="_blank" rel='noreferrer'>
           <img src={loves} alt='img' className='loves' />
+          </a>
         </div>
         <div className=' client'>
+        <a href='https://www.plains.com/' target="_blank" rel='noreferrer'>
           <img src={plains} alt='img' className='plains' />
+          </a>
         </div>
         <div className=' client'>
+        <a href='https://stripesstores.com/locator/' target="_blank" rel='noreferrer'>
           <img src={stripes} alt='img' className='stripes' />
+          </a>
         </div>
         <div className=' client'>
+          <a href='https://www.nov.com/products-and-services/brands/wilco' target="_blank" rel='noreferrer'>
           <img src={wilco} alt='img' className='wilco' />
+          </a>
         </div>
 
       </div>

@@ -31,25 +31,25 @@ window.addEventListener('scroll', changebackgrond);
         </div>
         <ul className={isMobile ? 'nav-link-mobile': 'navMenu'}>
           <div className='link'>
-            <Link to='/'>
+            <Link to='/oem'>
               OEM Panels
             </Link>
             </div>
 
             <div className='link'>
-            <Link to='/'>
+            <Link to='/isofuel'>
               ISOFuel Panels
             </Link>
             </div>
 
             <div className='link'>
-            <Link to='/'>
+            <Link to='/about'>
               About
             </Link>
             </div>
 
             <div className='link'>
-            <Link to='/'>
+            <Link to='/contact'>
               Contact Us
             </Link>
             </div>

@@ -1,5 +1,6 @@
-import React from 'react'
-import "./Iso.css"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "./Iso.css";
 import img from '../../img/iso.png';
 import isofuel from '../../img/isofuel-removebg-preview.png';
 import phoenix from '../../img/phoenix.png';
@@ -22,7 +23,9 @@ export const Iso = () => {
                 <div className='iso-title' data-aos="fade-up">
                     <h1>ISOFuel panels are designed to give you the control, data, and flexibility you need.</h1>
                     <div className='btn'>
+                    <Link to='/isofuel'>
                     <button type='buttom' className='btn-iso'>MORE</button>
+                    </Link>
                     </div>
                     <div className='imgtrade' >
                         <img src={isofuel} alt='img' className='isofuel' />

@@ -13,7 +13,7 @@ export const Main = () => {
 
   return (
 
-    <div class="container">
+    <div class="container" id='section-main'>
       <div className='title'>
         <div className='mainTitle' data-aos="zoom-in-up">
           <h1>Design, Fabrication, Installation, Maintenance of Distribution Control Panels
@@ -21,7 +21,9 @@ export const Main = () => {
           </h1>
         </div>
         <div className='btn' data-aos="zoom-in-up">
+        <a href='#section-about'>
           <button type='buttom' className='btn-main'>MORE</button>
+        </a>
         </div>
         <div className='imgRectangle' ></div>
         <div className='imgRectangle2'></div>
