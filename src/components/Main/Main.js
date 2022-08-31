@@ -29,7 +29,7 @@ export const Main = () => {
         <div className='imgRectangle2'></div>
       </div>
 
-      <div className='subtitle'data-aos="fade-left">
+      <div className='subtitle'data-aos="fade-down">
         <div className='imgLogoIso'>
           <img src={img} alt='img' className='img3' />
         </div>

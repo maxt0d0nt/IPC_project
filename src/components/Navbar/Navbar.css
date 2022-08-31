@@ -19,7 +19,7 @@
     opacity: 0.7;
     border-bottom: #fff 1px solid;
     transition: 0.7s;
-    
+  
   
 }
 
@@ -34,6 +34,7 @@
     border-bottom: #fff 1px solid;
     transition: 0.7s;
     z-index: 90;
+  
    }
 
 .logo {
@@ -78,11 +79,15 @@ a {
     background-color: gray;
  }
 
-@media screen and (max-width: 780px) {
+ /*------------------------n mobile ---------------------------*/
+
+@media screen and (max-width: 760px) {
     .navMenu {
         display: none;
         
     }
+
+   
 
     .nav-link-mobile {
         position: absolute;
