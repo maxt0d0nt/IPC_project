@@ -1,0 +1,94 @@
+.OEMViewContainer {
+    background-image: url(../../img/main.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 14PX;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img3 {
+    width: 50%;
+}
+
+.img4 {
+    width: 50%;
+}
+
+
+
+.imgAOEMViewv {
+
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.descriptionOEMView {
+
+    width: 300px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.descriptionOEMView p {
+    font-size: 18px;
+    line-height: 20px;
+
+}
+
+.titleOEMView {
+    border-bottom: #fff solid 2px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.imgFooter {
+    width: 100%;
+    display: flex;
+
+}
+
+.usaflag {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.pat {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------- MObile -----------------------*/
+@media screen and (max-width: 1000px) {
+    .descriptionOEMView {
+        margin-top: 20px;
+        width: 800px;
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .img3 {
+        width: 80%;
+    }
+    
+    .img4 {
+        width: 80%;
+    }
+}

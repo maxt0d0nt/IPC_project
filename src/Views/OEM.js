@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Navbar } from '../components/Navbar/Navbar'
+import { OEMView } from '../components/OEMView/OEMView';
 
 export const OEM = () => {
   return (
-    <div>OEM</div>
+    <>
+    < Navbar />
+    < OEMView />
+    </>
   )
 }
