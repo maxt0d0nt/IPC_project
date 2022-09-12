@@ -1,0 +1,16 @@
+.ContactViewContainer {
+    background-color: blue;
+    width: 100%;
+    height: 1000px;
+}
+
+.map{
+    border: solid blue 2px;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    justify-content: center;
+    
+
+}
+
