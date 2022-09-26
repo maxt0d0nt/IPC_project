@@ -1,5 +1,7 @@
 # IPC Website [![My Skills](https://skills.thijs.gg/icons?i=react)](https://skills.thijs.gg)
 
+![alt text](https://raw.githubusercontent.com/maxt0d0nt/IPC_project/master/src/img/ipc_logo-removebg.png)
+
 https://ipc-controls.netlify.app/
 
 This project was make on react, is resposive and use:
