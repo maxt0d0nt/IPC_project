@@ -1,16 +1,73 @@
-.ContactViewContainer {
-    background-color: blue;
+.contactView-container {
+    background-image: url(../../img/main.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 1000px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 14PX;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 
-.map{
-    border: solid blue 2px;
-    height: 400px;
+.map {
+    border: solid #f0f 2px;
+    height: 500px;
     width: 400px;
     overflow: hidden;
     justify-content: center;
-    
 
 }
 
+.address {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+
+}
+
+.contact-form {
+
+    padding: 40px;
+    justify-content: center;
+}
+
+input {
+
+    width: 100%;
+    border: 0;
+    background: #8d8d8d;
+    height: 50px;
+    font-size: 16px;
+    color: #000;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    border: 0;
+    background: #8d8d8d;
+    height: 50px;
+    font-size: 17px;
+    color: #000;
+    padding: 15px;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}

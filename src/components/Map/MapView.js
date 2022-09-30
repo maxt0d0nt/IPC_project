@@ -15,7 +15,7 @@ export const MapView = () => {
       center={position}
       pathOptions={{ color: 'red' }}
       radius={20}>
-      <Tooltip>Tooltip for CircleMarker</Tooltip>
+      <Tooltip>IPC HERE!</Tooltip>
     </CircleMarker>
    
 </MapContainer>

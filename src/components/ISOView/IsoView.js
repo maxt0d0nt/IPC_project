@@ -5,16 +5,14 @@ import img6 from '../../img/phoenix.png';
 import img7 from '../../img/isofuel-removebg-preview.png';
 
 export const IsoView = () => {
-  return (
-   
-    <>
-            <div className='OEMViewContainer'>
-            <div>ISOView</div>
-                <div className='imgAOEMViewv'>
-                    <img src={img5} alt='img' className='img2' />
+    return (
+        <>
+            <div className='ISOViewContainer'>
+                <div className='imgISOView'>
+                    <img src={img5} alt='img' className='img5' />
                 </div>
-                <div className='descriptionOEMView'>
-                    <div className='titleOEMView'>
+                <div className='descriptionISOView'>
+                    <div className='titleISOView'>
                         <h1>ISOFuel PANELS</h1>
                     </div>
                     <h2>ISOFuel panels are designed to give you the control, data, and flexibility you need.</h2>
@@ -32,9 +30,7 @@ export const IsoView = () => {
                         <img src={img7} alt='img' className='img4' />
                     </div>
                 </div>
-
             </div>
-
         </>
-  )
+    )
 }
