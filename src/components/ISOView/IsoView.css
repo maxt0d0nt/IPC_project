@@ -11,7 +11,6 @@
     font-size: 14PX;
     justify-content: center;
     align-items: center;
-    
 
 }
 
@@ -23,10 +22,7 @@
     width: 50%;
 }
 
-
-
 .imgISOView {
-
     margin-top: 90px;
     display: flex;
     justify-content: center;
@@ -35,7 +31,6 @@
 }
 
 .descriptionISOView {
-
     width: 400px;
     margin-top: 80px;
     display: flex;
@@ -50,7 +45,6 @@
 .descriptionISOView p {
     font-size: 18px;
     line-height: 20px;
-    
 
 }
 
@@ -67,14 +61,12 @@
 }
 
 .usaflag {
-
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .pat {
-
     width: 50%;
     display: flex;
     justify-content: center;
@@ -93,7 +85,7 @@
     .img3 {
         width: 80%;
     }
-    
+
     .img4 {
         width: 80%;
     }

@@ -13,55 +13,43 @@ export const Navbar = () => {
 
   let changebackgrond = () => {
     if (window.scrollY > 0) {
-      
       setHeader(true);
     } else {
       setHeader(false);
     }
   };
 
-window.addEventListener('scroll', changebackgrond);
+  window.addEventListener('scroll', changebackgrond);
   return (
     <div className='navbar'>
       <div className={header ? 'header active' : 'Nav'}>
         <div className='logo'>
-        <Link to='/'>
-        <img src={logo} width="120" height="70" alt='logo' />
-        </Link>
+          <Link to='/'>
+            <img src={logo} width="120" height="70" alt='logo' />
+          </Link>
         </div>
-        <ul className={isMobile ? 'nav-link-mobile': 'navMenu'}>
+        <ul className={isMobile ? 'nav-link-mobile' : 'navMenu'}>
           <div className='link'>
-            <Link to='/oem'>
-              OEM Panels
-            </Link>
-            </div>
-
-            <div className='link'>
-            <Link to='/isofuel'>
-              ISOFuel Panels
-            </Link>
-            </div>
-
-            <div className='link'>
-            <Link to='/about'>
-              About
-            </Link>
-            </div>
-
-            <div className='link'>
-            <Link to='/contact'>
-              Contact Us
-            </Link>
-            </div>
+            <Link to='/oem'>OEM Panels</Link>
+          </div>
+          <div className='link'>
+            <Link to='/isofuel'>ISOFuel Panels</Link>
+          </div>
+          <div className='link'>
+            <Link to='/about'>About</Link>
+          </div>
+          <div className='link'>
+            <Link to='/contact'>Contact Us</Link>
+          </div>
         </ul>
         <button className='mobile-menu-icon'>
-          { isMobile ? (
+          {isMobile ? (
             <i className='fas fa-times' onClick={() => setIsMobile(false)}>
-            <RiCloseFill/>
+              <RiCloseFill />
             </i>
-          ):(
-            <i className='fas fa-bars' onClick={() => setIsMobile(true) }>
-              <FaBars/>
+          ) : (
+            <i className='fas fa-bars' onClick={() => setIsMobile(true)}>
+              <FaBars />
             </i>
           )}
         </button>

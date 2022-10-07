@@ -60,7 +60,6 @@
 
 }
 
-
 .subtitle {
   width: 100%;
   height: 180px;
@@ -76,19 +75,16 @@
 
 .sub {
   display: flex;
-
   justify-content: right;
 
 }
 
 .btn {
-  
   padding: 10px;
-  
+
 }
 
 .btn-main {
-  
   align-items: flex-end;
   padding: 0px 40px;
   position: relative;
@@ -126,7 +122,6 @@
 
   }
 
-
   .title {
     padding: 10px;
     margin: 30px;
@@ -154,11 +149,9 @@
     display: flex;
     font-size: 12px;
 
-
   }
 
   .btn-main {
-
     width: 130px;
     height: 38px;
 
@@ -180,30 +173,25 @@
     width: 280px;
   }
 
-
   .sub {
     display: flex;
     font-size: 16px;
 
-
   }
 
   .btn-main {
-
     width: 140px;
     height: 48px;
 
   }
-
-
-
 }
 
 @media screen and (min-width: 1550px) {
-.imgRectangle{
-  display: none;
-}
-.imgRectangle2{
-  display: none;
-}
+  .imgRectangle {
+    display: none;
+  }
+
+  .imgRectangle2 {
+    display: none;
+  }
 }

@@ -5,7 +5,7 @@ import { ContactView } from '../components/Contact/ContactView'
 export const Contact = () => {
   return (
     <>
-    < ContactView />
+      < ContactView />
     </>
   )
 }

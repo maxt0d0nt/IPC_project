@@ -11,14 +11,13 @@ import { Contact } from './Views/Contact';
 function App() {
   return (
     <>
-       <Routes>
-       < Route path='/' element={< Home />} />
-       < Route path='/oem' element={< OEM />} />
-       < Route path='/isofuel' element={< ISOFuel />} />
-       < Route path='/about' element={< About />} />
-       < Route path='/contact' element={< Contact />} />
-       </Routes>
-   
+      <Routes>
+        < Route path='/' element={< Home />} exact />
+        < Route path='/oem' element={< OEM />} />
+        < Route path='/isofuel' element={< ISOFuel />} />
+        < Route path='/about' element={< About />} />
+        < Route path='/contact' element={< Contact />} />
+      </Routes>
     </>
   )
 }

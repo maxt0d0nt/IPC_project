@@ -5,9 +5,8 @@ import { IsoView } from '../components/ISOView/IsoView';
 export const ISOFuel = () => {
   return (
     <>
-    < Navbar />
-    < IsoView />
-    
+      < Navbar />
+      < IsoView />
     </>
   )
 }

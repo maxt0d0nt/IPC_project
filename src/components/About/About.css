@@ -11,21 +11,19 @@
     font-family: roboto;
     width: 100%;
     z-index: 2;
-    
-    
+
 }
 
 .draw {
     padding: 30px;
     width: 500px;
     position: relative;
-   
+
 }
 
 .bigImg {
     position: absolute;
     width: 100%;
-
 
 }
 
@@ -44,17 +42,15 @@
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
-  
+
 }
 
 .about-description {
-
     padding: 20px 40px;
 
 }
 
 .btn-about {
-
     padding: 0px 40px;
     width: 165px;
     height: 48px;
@@ -69,7 +65,7 @@
 .btn-class {
     padding: 20px;
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: flex-end;
 }
 

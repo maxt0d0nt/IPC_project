@@ -6,10 +6,8 @@ import { Navbar } from '../components/Navbar/Navbar';
 export const About = () => {
   return (
     <>
-
-    < Navbar />
-    < Aboutview />
-    
+      < Navbar />
+      < Aboutview />
     </>
   )
 }

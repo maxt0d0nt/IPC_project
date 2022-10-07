@@ -10,7 +10,6 @@
     color: #fff;
     font-size: 14PX;
 
-
 }
 
 .foote-main {
@@ -32,7 +31,6 @@
 }
 
 .page {
-
     width: 80%;
     display: flex;
     justify-content: center;
@@ -45,8 +43,6 @@
     background: rgba(255, 255, 255, 0.363);
 }
 
-
-
 .products-footer {
     border-left: #fff solid 1px;
     width: 33%;
@@ -56,7 +52,6 @@
 }
 
 .products {
-
     width: 80%;
     display: flex;
     justify-content: center;
@@ -69,9 +64,7 @@
     background: rgba(255, 255, 255, 0.363);
 }
 
-
 .address-footer {
-
     width: 33%;
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +97,6 @@
     }
 
     .address-footer {
-
         width: 100%;
         align-items: center;
         justify-content: center;
@@ -122,5 +114,4 @@
     .products {
         padding: 20px;
     }
-
 }

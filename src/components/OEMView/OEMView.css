@@ -22,10 +22,7 @@
     width: 50%;
 }
 
-
-
 .imgAOEMViewv {
-
     margin-top: 90px;
     display: flex;
     justify-content: center;
@@ -33,7 +30,6 @@
 }
 
 .descriptionOEMView {
-
     width: 300px;
     margin-top: 80px;
     display: flex;
@@ -61,14 +57,12 @@
 }
 
 .usaflag {
-
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .pat {
-
     width: 50%;
     display: flex;
     justify-content: center;
@@ -87,7 +81,7 @@
     .img3 {
         width: 80%;
     }
-    
+
     .img4 {
         width: 80%;
     }

@@ -1,5 +1,5 @@
 .oem-container {
-    background:#010630;
+    background: #010630;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,6 @@
 }
 
 .imgUsa {
-
     width: 35%;
     display: flex;
     align-items: center;
@@ -27,23 +26,20 @@
 }
 
 .imgOEM {
-
     width: 100%;
 }
 
 .patco {
-
     width: 25%;
 }
 
 .imgTelco {
     display: flex;
     align-items: center;
-    justify-content:space-around
+    justify-content: space-around
 }
 
 .btn-oem {
-  
     align-items: flex-end;
     padding: 0px 40px;
     position: relative;
@@ -55,17 +51,17 @@
     font-family: roboto;
     font-weight: 700;
     font-size: 16px;
-  }
+}
 
-  .btn-oem-div {
+.btn-oem-div {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-  }
+}
 
-  .btn-oem:hover {
+.btn-oem:hover {
     background: #051178;
     color: #fff;
 }
@@ -73,8 +69,6 @@
 /*------------------------- MObile -----------------------*/
 @media screen and (max-width: 1000px) {
     .oem-title {
-
-
         width: 100%;
     }
 

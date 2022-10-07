@@ -30,9 +30,7 @@ export const OEMView = () => {
                         <img src={img4} alt='img' className='img4' />
                     </div>
                 </div>
-
             </div>
-
         </>
     )
 }

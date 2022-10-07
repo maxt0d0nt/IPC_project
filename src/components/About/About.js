@@ -7,10 +7,10 @@ import 'aos/dist/aos.css';
 import './About.css';
 
 export const About = () => {
-    
+
   AOS.init({
-    delay: 500, 
-  duration: 1000
+    delay: 500,
+    duration: 1000
   });
 
   return (
@@ -28,12 +28,11 @@ export const About = () => {
             <br></br>
             <h2>We fabricate panels of all sizes and complexities, from isolation panels for fuel or other applications, to whole plant system controllers. IPC’s consistently high standards of quality are applied in everything we do, from the careful routing and labelling of wires to the precision laser-cut doors.</h2>
             <div className='btn-class'>
-            <Link to='/about'>
-              <button type='buttom' className='btn-about'>MORE</button>
-            </Link>
+              <Link to='/about'>
+                <button type='buttom' className='btn-about'>MORE</button>
+              </Link>
             </div>
           </div>
-
         </div>
       </div>
     </>

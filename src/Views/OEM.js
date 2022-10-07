@@ -5,8 +5,8 @@ import { OEMView } from '../components/OEMView/OEMView';
 export const OEM = () => {
   return (
     <>
-    < Navbar />
-    < OEMView />
+      < Navbar />
+      < OEMView />
     </>
   )
 }
